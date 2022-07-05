@@ -1,0 +1,113 @@
+.orderOnlineHeader {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.orderOnlineHeader-logo {
+  height: 27px;
+  max-width: 140px;
+  margin-right: 24px;
+}
+
+.orderOnlineHeader-right {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  align-items: center;
+  height: 72px;
+}
+
+.orderOnlineHeader-location-search-container {
+  /* box-shadow: var(--primary-box-shadow); */
+  height: 54px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: var(--primary-bg);
+  width: 70%;
+  border: 1px solid var(--border-white);
+}
+
+.location-search-separator {
+  height: 20px;
+  border: 0.5px solid var(--gray);
+}
+
+.location-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  padding: 0px 10px;
+}
+
+.location-icon-name {
+  display: flex;
+  color: var(--zomato-gray);
+}
+
+.location-icon {
+  margin-right: 8px;
+  font-size: 20px;
+  color: var(--zomato-red);
+}
+
+.orderOnlineHeader-searchBar {
+  display: flex;
+  flex: 2;
+}
+
+.search-icon {
+  font-size: 20px;
+  color: var(--zomato-gray);
+  margin: 0px 12px;
+}
+
+.search-input {
+  border: none;
+  width: 60%;
+  font-size: 14px;
+  outline: none;
+}
+
+.orderOnlineHeader-profile-image {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+}
+
+.orderOnlineHeader-username {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.profile-options-icon {
+  font-size: 20px;
+}
+
+
+.nav-bar1{
+  display: flex;
+  }
+
+  .nav-bar1 li{
+    font-size: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight:normal;
+    padding-left: 30px;
+    list-style: none;
+    color: var(--zomato-gray);
+  }
+
+  .location-icon-name svg:first-child{
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .orderOnlineHeader-searchBar svg{
+    color: gray;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
